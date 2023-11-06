@@ -149,6 +149,10 @@ button {
     gap: 1rem;
     margin-top: 1rem;
 
+    & input {
+      color: var(--dark-gray);
+    }
+
     & input,
     button {
       height: 60px;
