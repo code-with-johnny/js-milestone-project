@@ -5,8 +5,6 @@ const backToTopLink = document.getElementById("back-to-top");
   link.addEventListener("click", (e) => {
     e.preventDefault();
     const href = link.getAttribute("href");
-    document.querySelector(href).scrollIntoView({
-      behavior: "smooth",
-    });
+    document.querySelector(href).scrollIntoView({ behavior: "smooth" });
   });
 });

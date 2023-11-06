@@ -34,14 +34,10 @@
           <div>
             <p>Join my free newsletter to get weekly tips & tricks on coercing your human to give you treats. No spam,
               ever.</p>
-            <<<<<<< HEAD <form>
-              <input type="email" placeholder="Email Address" required>
-              =======
-              <form id="subscribe-form">
-                <input type="email" name='email' placeholder="Email address" required>
-                >>>>>>> 27825ab (add scripts for smooth scroll and form submit handlers)
-                <button type="submit">Subscribe</button>
-              </form>
+            <form id="subscribe-form">
+              <input type="email" name='email' placeholder="Email address" required>
+              <button type="submit">Subscribe</button>
+            </form>
           </div>
         </div>
         <img class="cta__image" src="./assets/img/joseph-the-cat.webp" alt="Joseph The Cat">
@@ -131,7 +127,7 @@
         <p>
           If you want to contact me, fill out the form below. Please keep in mind I only respond to catnip offers.
         </p>
-        <form class='contact__form'>
+        <form id="contact-form" class='contact__form'>
           <input name="name" type="text" placeholder="Name" required>
           <input name="email" type="email" placeholder="Email" required>
           <textarea name="message" placeholder="Message" required></textarea>
@@ -139,7 +135,7 @@
         </form>
       </div>
     </section>
-    <a href="#top">
+    <a href="#top" id="back-to-top">
       <div class="back-to-top">
         Back to top
       </div>
