@@ -9,6 +9,9 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap">
 
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/abfda23f27.js" crossorigin="anonymous"></script>
+
   <!-- Local stylesheets -->
   <link rel="stylesheet" href="index.css" type="text/css">
 </head>
@@ -17,13 +20,23 @@
   <header id="top" class="header">
     <div class="header__content-wrapper">
       <h1>Joseph The Cat</h1>
+      <i class="fa-solid fa-bars header__hamburger-icon"></i>
+      <i class="fa-solid fa-xmark header__close-icon"></i>
       <nav class="header__nav">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
     </div>
-    </nav>
+    <div class="header__content-wrapper--mobile">
+      <nav class="header__nav--mobile">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section class="cta">
@@ -35,7 +48,7 @@
             <p>Join my free newsletter to get weekly tips & tricks on coercing your human to give you treats. No spam,
               ever.</p>
             <form id="subscribe-form">
-              <input type="email" name='email' placeholder="Email address" required>
+              <input type="email" placeholder="Email Address" required>
               <button type="submit">Subscribe</button>
             </form>
           </div>
@@ -127,7 +140,7 @@
         <p>
           If you want to contact me, fill out the form below. Please keep in mind I only respond to catnip offers.
         </p>
-        <form id="contact-form" class='contact__form'>
+        <form id="contact-form" class="contact__form">
           <input name="name" type="text" placeholder="Name" required>
           <input name="email" type="email" placeholder="Email" required>
           <textarea name="message" placeholder="Message" required></textarea>
@@ -147,6 +160,7 @@
 
   <!-- Local scripts -->
   <script src="scripts/form-handlers.js"></script>
+  <script src="scripts/hamburger-menu.js"></script>
   <script src="scripts/smooth-scroll.js"></script>
 </body>
 
