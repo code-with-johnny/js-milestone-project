@@ -21,7 +21,7 @@ window.addEventListener("resize", () => {
     menuIcon.style.display = "none";
     closeIcon.style.display = "none";
     mobileNav.style.display = "none";
-  } else {
+  } else if (mobileNav.style.display === "none") {
     menuIcon.style.display = "block";
   }
 });
