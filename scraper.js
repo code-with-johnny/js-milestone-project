@@ -13,13 +13,13 @@ const filePath = path.join(__dirname, "index.html");
   await page.goto(`file://${filePath}`);
 
   console.info("Looking for cat comparison table...");
-  await page.waitForSelector(".about__table");
+  await page.waitForSelector("#cat-comparison");
 
   console.info("Table found, parsing...");
   await sleep500();
 
   const tableData = await page.evaluate(() => {
-    const table = document.querySelector(".about__table");
+    const table = document.querySelector("#cat-comparison");
     const headers = Array.from(table.querySelectorAll("thead th")).map((th) =>
       th.textContent.trim()
     );

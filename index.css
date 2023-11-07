@@ -17,6 +17,7 @@
   color-scheme: light dark;
   color: var(--dark-gray);
   background: white;
+  scroll-behavior: smooth;
 }
 
 body {
