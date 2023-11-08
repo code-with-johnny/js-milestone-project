@@ -133,7 +133,7 @@ button {
   display: none;
   width: 100%;
   padding: 1rem 0;
-  background: var(--dark-gray);
+  background: white;
 }
 
 .header__nav--mobile {
@@ -453,20 +453,13 @@ button {
     background: var(--dark-gray);
   }
 
-  .contact__form {
-    & input,
-    textarea {
-      border: 1px solid whitesmoke;
-      background: var(--dark-gray);
-      &::placeholder {
-        opacity: 1;
-      }
-    }
-  }
-
   .header,
   .section-header {
     background: var(--dark-black);
+  }
+
+  .header__content-wrapper--mobile {
+    background: var(--dark-gray);
   }
 
   .cta__copywrite-and-form {
@@ -494,6 +487,17 @@ button {
 
     & tbody tr:nth-child(odd) {
       background-color: var(--dark-gray);
+    }
+  }
+
+  .contact__form {
+    & input,
+    textarea {
+      border: 1px solid whitesmoke;
+      background: var(--dark-gray);
+      &::placeholder {
+        opacity: 1;
+      }
     }
   }
 
