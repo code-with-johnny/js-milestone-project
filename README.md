@@ -14,7 +14,7 @@ git clone git@github.com:code-with-johnny/js-milestone-project.git && cd js-mile
 
 Run the `npm install` command to install the project's dependencies.
 
-If you open up the project in vscode, you should see a folder called `scripts` which contains three JavaScript files, `hamburger-menu.js`, `form-handlers.js`, and `smooth-scroll.js`. These files will need to be linked to the index.html (for you to figure out how to do). Take note of _when_ your JavaScript files load after you've linked them to the html. Usually, you want the script to load _after_ the html is finished rendering.
+If you open up the project in vscode, you should see a folder called `scripts` which contains two JavaScript files, `hamburger-menu.js` and `form-handlers.js`. These files will need to be linked to the index.html (for you to figure out how to do). Take note of *when* your JavaScript files load after you've linked them to the html. Usually, you want the script to load *after* the html is finished rendering.
 
 To run your web scraper, run `node scraper.js` in your terminal.
 
