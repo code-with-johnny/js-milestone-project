@@ -26,7 +26,7 @@ To run your web scraper, run `node scraper.js` in your terminal.
 
 ## Example
 
-GIFs are too large to be stored in this repo. You can [click here](todo) to see an example of what the project should look like.
+You can [click here](https://www.youtube.com/watch?v=nXTlbiIYc6Q&ab_channel=CodeWithJohnny) to see an example of what the project should look like.
 
 ## Solution
 
